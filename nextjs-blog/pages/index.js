@@ -10,64 +10,39 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          <a href="https://nextjs.org">Made well? yes i did!!</a>
+          Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <h2>made by  sangwon Lee</h2>
-
         <p className="description">
-          I am..
+          Get started by editing <code>pages/index.js</code>
         </p>
 
-<div className="like">
-<h3>Interested in</h3>
-<p>
-I like <strong>LeagueOfLegends</strong> which dominates
-possession of World's online game market.
-<br />Champion that i play most often is <strong>Lucian<u></u></strong>
-<br />Imagine long blade with reddish skill effects. beautiful performance
-isn't it?
-</p>
-</div>
-
-<div className="intro">
-<h3>Brief Introduction</h3>
-<p>
--Hanyang Univ. Department of information system.<br />
--been to Univ only 3 times this year so far.<br />
--interested especially in C & C++<br />
--live in jamsil, Seoul<br />
-</p>
-</div>
-
-
-
         <div className="grid">
-          <a href="https://www.naver.com" className="card">
-            <h3>네이버 &rarr;</h3>
-            <p>Move to naver</p>
+          <a href="https://nextjs.org/docs" className="card">
+            <h3>Documentation &rarr;</h3>
+            <p>Find in-depth information about Next.js features and API.</p>
           </a>
 
-          <a href="https://www.google.com" className="card">
-            <h3>구글 &rarr;</h3>
-            <p>Move to Google</p>
-          </a>
-
-          <a
-            href="https://www.notion.so/ko-kr/product"
-            className="card"
-          >
-            <h3>노션 &rarr;</h3>
-            <p>노션 사이트 방문하기</p>
+          <a href="https://nextjs.org/learn" className="card">
+            <h3>Learn &rarr;</h3>
+            <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
 
           <a
-            href="https://velog.io/@croco"
+            href="https://github.com/vercel/next.js/tree/master/examples"
             className="card"
           >
-            <h3>내 벨로그 &rarr;</h3>
+            <h3>Examples &rarr;</h3>
+            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          </a>
+
+          <a
+            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            className="card"
+          >
+            <h3>Deploy &rarr;</h3>
             <p>
-              내 벨로그
+              Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
         </div>
@@ -80,7 +55,7 @@ isn't it?
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+          <img src="/vercel.svg" alt="Vercel" className="logo" />
         </a>
       </footer>
 
